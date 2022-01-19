@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;display=swap');
+
+:root{
+    --red:#e50914;
+    --black:#000000;
+    --white:#fff;
+}
+body{
+    background:var(--red);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+
+.center
+{
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    margin-top: 15px;
+}
+
+header
+{
+    background-color:var(--black);
+   
+    
+}
+/*Logomarca Styles*************************************************************************/
+#logomarca
+{
+    max-width: 150px;
+}
+#logomarca:hover
+{
+    background: rgb(240, 186, 7);
+    border:var(--red) 3px solid;
+    color:#141414;
+    text-shadow: 0px 3px 3px;
+    cursor: pointer;
+    box-shadow: inset 0 0 3em rgb(228, 155, 8), 0 0 3em rgb(228, 153, 15);
+}
+
+/*Menus Styles*************************************************************************/
+
+#btn-menu
+{
+    color:var(--white);
+    text-decoration:none;
+    z-index: 1;
+    display:inline-flex;
+    font-size: 1.1em;
+    margin: 0.5em 0;
+    left: 15em;
+}
+#btn-menu:hover
+{
+    color:#0f0303;
+    background: rgb(240, 186, 7);
+    border:var(--red) 3px solid;
+    box-shadow: inset 0 0 3em rgb(204, 49, 2), 0 0 3em rgb(228, 153, 15);
+}
+
+
+
+/*banner central com backdround fundo *****************************************************************************************************************************/
+.banner
+{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 85vh;
+    background: var(--black);
+    clip-path: circle( 400px at center center);
+
+}
+    
+
+.banner video 
+{
+    position: relative;
+    left:0;
+    width: 60%;
+    height: 85vh;
+    object-fit:cover;
+ 
+
+}
+.banner .content  
+{
+    display:flex;
+    text-align: center;
+    position:fixed;
+    left:1px;
+    right: 120px;
+    z-index: 1;
+    left:0;
+    font-size:0.8em;
+    border-radius: 10px 10px 0px 0px;
+    color:var(--white);
+    text-decoration:none;
+    justify-content:center;
+
+}
+.container2 .text-titulo1 
+{
+    display:flex;
+    text-align: center;
+    position:relative;
+    z-index: 1;
+    top: -8em;
+    left:13%;
+    max-width: 75%;
+    font-size: 1em;
+    background: rgba(0, 0, 0, 0.70);
+    border-radius: 40px 40px 0px 0px;
+    color:var(--white);
+    text-decoration:none;
+    justify-content:center;
+    padding: 10px;
+
+}
+
+.container2 .titulo1 
+{
+    display:flex;
+    text-align: center;
+    position:relative;
+    z-index: 1;
+    left:1%;
+    top: -4em;
+    max-width: 75%;
+    font-size: 2em;
+    background: var(--red);
+    border-radius: 10px 10px 0px 0px;
+    color:var(rgba(24, 20, 20, 0.5));
+    text-decoration:none;
+    justify-content:center;
+    
+
+}
+.container2 .btn-banner-central
+{
+    z-index: auto;
+    padding: 10px;
+    width: 18%;
+    font-size: 1.1em;
+    background: rgba(0, 0, 0, 0.40);
+    border-radius: 15px ;
+    color:white;
+    border:none;
+    top:-7.5em;
+    text-align: center;
+    position:relative;
+    z-index: 1;
+    left:13%;
+
+}
+/*-------------------------------------stylos botoes contente central *****************************************----------------------*/
+.container2 .btn-banner-central:hover
+{
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.603);
+    color: rgb(207, 31, 31);
+    
+}
+
+/*icones botões fas************************************************************************************************************/
+
+
+#icon
+{
+    font-size: 2em;
+    margin: 8px;
+}
+#icon:hover
+{
+    color: red;
+}
+
+/*Carrosel swip***********************************************************************************************************************************************************************************************************/
+
+.titulo2 /* titulos de filmes*/
+{
+    font-size: 1.8em;
+    text-align: center;
+    z-index: 1;
+}
+.titulo2:hover
+{
+    color:white;
+}
+.swiper3d
+{
+    position: relative;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    
+}
+
+.container-Swiper
+{
+    
+    background: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display:flex;
+    
+    
+}
+.swiper {
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    
+  }
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    min-width: 300px;
+    
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+/*Rodapé do site**************************************************************************************************************************/
+footer {
+    position: absolute;
+    width: 100%;
+    background:var(--red);
+    min-height: 80px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer .social-icons {
+    margin-top: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+
+}
+
+footer .social-icons li {
+  list-style: none;
+
+}
+footer .social-icons li a {
+    font-size: 2.1em;
+    color: rgb(236, 229, 229);
+    margin:  30px;
+    display: inline-block;
+    transition: 0.5s;
+  
+}
+footer .social-icons li a:hover {
+    transform: translateY(-10px);
+}
+#dev{
+    color: #141414;
+    margin-top: 55px;
+}
+
+/*gatos de code*/
+#titulo-dr /*titulo mais para esquerda pagina ação*/
+{
+    left:12%;
+
+}
+#tituloThen /*titulo mais para esquerda pagina ação*/
+{
+    left: -7%;
+
+}
