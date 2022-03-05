@@ -9,6 +9,7 @@ Tecnologias usadas
 <u>Vesion 0.1.0</u>
 
 <img src="https://raw.githubusercontent.com/diegobda/netiflixdiointer/main/foto%20um.jpg"/>
+<img src=https://raw.githubusercontent.com/diegobda/netiflixdiointer/main/foto%20um2.jpg"/>
 
 
 
